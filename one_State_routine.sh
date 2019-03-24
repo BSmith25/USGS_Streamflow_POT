@@ -3,7 +3,7 @@
 # from a list of gage number and dates, finds the Peaks Over Threshold within that data
 # and decides if a station exceeds a number of peaks per year of record (2 x 1 cms/sq. km) it saves 
 # the station peak data and 1 minute interpolated discharge data, the program deafult is to run for  
-# Alaska, "ak" and the state can be updates in line 23 as the 2 letter state abbreviation "stateCd=__"
+# Alabama, "al" and the state can be updates in line 23 as the 2 letter state abbreviation "stateCd=__"
 # the Threshold can be changed in peaks.c
 
 # This program was written at a time when pre-2007 USGS data was available through a different site (IDA) than
@@ -20,7 +20,7 @@ mkdir Flashy_ones/peaks
 mkdir Flashy_ones/discharge
 
 # Download site numbers for a state
-wget  -q "http://waterservices.usgs.gov/nwis/site/?format=rdb,1.0&stateCd=ak&outputDataTypeCd=iv,id&parameterCd=00060&hasDataTypeCd=iv,id"  --referer="http://waterservices.usgs.gov/" -O ttt 
+wget  -q "http://waterservices.usgs.gov/nwis/site/?format=rdb,1.0&stateCd=al&outputDataTypeCd=iv,id&parameterCd=00060&hasDataTypeCd=iv,id"  --referer="http://waterservices.usgs.gov/" -O ttt 
 
 # Organize the data into a names file and data file
 grep "USGS" ttt > tt1
