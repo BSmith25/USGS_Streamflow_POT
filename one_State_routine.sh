@@ -213,7 +213,7 @@ fi
 done
 
 # remove all un-needed files
-rm a11 aaa anpeak b11 bbb cc1 cc3 ccc date date2 day day2 dd1 dd3 ddd eday emonth endd eyear ggg hhh hour hour2 jj1 jjj kkk minute minute2 month month2 recno sday smonth startd stn stin2 syear tt1 tt3 ttt type value value2 year year2 yyy zzz
+rm a11 aaa abc anpeak b11 bbb cc1 cc3 ccc date date2 day day2 dd1 dd3 ddd eday emonth endd eyear ggg hhh hour hour2 jj1 jjj kkk minute minute2 month month2 recno sday smonth startd stn stn2 syear tt1 tt3 ttt type value value2 year year2 yyy zzz
 
 
 
